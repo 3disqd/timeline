@@ -1,0 +1,36 @@
+.transactions-card{
+    color: black;
+    text-decoration: none;
+}
+.transactions-card__header{
+    display: flex;
+    justify-content: space-between;
+}
+.transactions-card__value--positive{
+    color: green;
+}
+.transactions-card__value--positive:before{
+    content: '+ ';
+}
+.transactions-card__value--negative{
+    color: red;
+}
+.transactions-card__value--negative:before{
+    content: '- ';
+}
+.transactions-card__footer{
+    display: flex;
+    justify-content: space-between;
+}
+.transactions-card__sender{
+    word-break: break-word;
+}
+.transactions-card__date{
+    white-space: nowrap;
+}
+.transactions-card__currency{
+    word-break: break-word;
+}
+.transactions-card__currency:before{
+    content: ' ';
+}

@@ -1,0 +1,14 @@
+.timeline-news-card{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.timeline-news-card__header{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    word-break: break-word;
+}
+.timeline-news-card__header--new{
+    color: green;
+}

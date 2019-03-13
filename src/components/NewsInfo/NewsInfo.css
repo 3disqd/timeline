@@ -1,0 +1,16 @@
+.news-card--info{
+    margin: 30px;
+}
+.news-card__body-description{
+    word-wrap: break-word;
+}
+.news-card__header,
+.news-card__body-label{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    word-break: break-word;
+}
+.news-card__header-action{
+    word-break: normal;
+}

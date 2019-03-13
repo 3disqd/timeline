@@ -1,0 +1,16 @@
+.mini-navigator{
+    display: none;
+}
+@media  (max-width: 599px) {
+    .mini-navigator{
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        background: cadetblue;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

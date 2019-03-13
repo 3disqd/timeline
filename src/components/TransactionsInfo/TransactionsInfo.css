@@ -1,0 +1,17 @@
+.transactions-card--info{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 30px;
+}
+.transactions-card__subtitle,
+.transactions-card__body-label,
+.transactions-card__header{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.transactions-card__sender,
+.transactions-card__body-description{
+    word-break: break-word;
+}
