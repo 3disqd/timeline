@@ -1,3 +1,5 @@
+Task: https://github.com/Life1over/test-task/blob/master/frontend.md
+
 ### Добавление нового события:
 - EventContext: Дополнить модель в getEventsTypes
 - EventContext: Дополнить обработчики add{eventName} и update{eventName} 
